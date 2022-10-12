@@ -10,6 +10,7 @@ import { CarsComponent } from './cars/cars.component';
 
 const routes: Routes = [
   { path: '', component: AppComponent },
+  { path: 'cars', component: CarsComponent },
 
 ]
 @NgModule({
